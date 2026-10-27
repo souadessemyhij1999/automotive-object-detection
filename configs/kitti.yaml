@@ -1,0 +1,20 @@
+# KITTI 2D object detection - real driving scenes from Karlsruhe, Germany
+# (Karlsruhe Institute of Technology & Toyota Technological Institute at Chicago)
+# Downloads automatically (~390 MB) the first time train.py or evaluate.py runs.
+# Dataset licence: CC BY-NC-SA 3.0 (non-commercial use) - https://www.cvlibs.net/datasets/kitti/
+
+path: kitti          # stored under Ultralytics' datasets folder
+train: images/train  # 5,985 images
+val: images/val      # 1,496 images
+
+names:
+  0: car
+  1: van
+  2: truck
+  3: pedestrian
+  4: person_sitting
+  5: cyclist
+  6: tram
+  7: misc
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/kitti.zip

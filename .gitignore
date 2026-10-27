@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large / generated files - keep the repo small
+datasets/
+runs/
+# pretrained weights auto-downloaded to the repo root
+/*.pt
+# weights/best.pt is small (~5 MB) and IS committed so others can run the demo
+results/detections/*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
